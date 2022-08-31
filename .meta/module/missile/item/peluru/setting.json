@@ -1,0 +1,240 @@
+{
+  "data": {
+    "boundingVolume": {
+      "memory": {
+        "Capsule": "1.000000-0.500000"
+      },
+      "type": "Cylinder"
+    },
+    "boundingVolumeMissileCfg": {
+      "memory": {
+        "Capsule": "1.000000-0.500000",
+        "Sphere": "1.000000-0.500000"
+      },
+      "type": "Cylinder"
+    },
+    "collideBlock": "0",
+    "gravity": 1,
+    "hitCount": {
+      "hitCount": 1,
+      "hitEntityCount": 1,
+      "isValid": true
+    },
+    "hitEntitySkill": "myplugin/shoot",
+    "lifeTime": {
+      "value": 20
+    },
+    "missileModel": {
+      "modelBlock": "myplugin/double_plant_sunflower_back",
+      "modelMesh": {
+        "asset": "asset/Mesh/Orange Carrot/huluobo.mesh"
+      },
+      "modelSizeScale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "type": "mesh"
+    },
+    "moveAcc": 1,
+    "moveSpeed": 1,
+    "name": {
+      "value": "missile_peluru"
+    },
+    "rotateSpeed": 1,
+    "startEffect": {
+      "effect": {
+        "asset": "asset/effect/Red Bullet Effect/txxd209_short trailing_01_red_3d.effect"
+      }
+    },
+    "startSound": {
+      "selfOnly": true
+    },
+    "target_type": "hitNpc",
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddEntityBuff",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "104d9068-ce6c-4f3e-8496-4a136c91fb09"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/tembak"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 60
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "652aa807-14d5-4056-b828-7a35b751071e"
+              },
+              "pos": {
+                "x": 519,
+                "y": 2
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_Damage",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "66be0b20-4876-402c-85da-789bd4d4a6d2"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 20
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "fc56bb03-a561-4931-ac2d-2e5bfdeba630"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "d29c3232-842e-473e-95fe-fd59259d83c4"
+              },
+              "pos": {
+                "x": 541,
+                "y": 276
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "66be0b20-4876-402c-85da-789bd4d4a6d2"
+              },
+              "pos": {
+                "x": 980,
+                "y": 233
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "fc56bb03-a561-4931-ac2d-2e5bfdeba630"
+              },
+              "pos": {
+                "x": 1034,
+                "y": 389
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "104d9068-ce6c-4f3e-8496-4a136c91fb09"
+              },
+              "pos": {
+                "x": 1073,
+                "y": 89
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "426576f3-1adc-4c67-b14c-2e623fd936e5"
+            },
+            "type": "Trigger_MissileHitEntity"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "652aa807-14d5-4056-b828-7a35b751071e"
+                  },
+                  {
+                    "action": "d29c3232-842e-473e-95fe-fd59259d83c4"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "bca4b63d-3961-4de0-bebb-94253a8d97a4"
+            },
+            "pos": {
+              "x": 214,
+              "y": 109
+            }
+          },
+          "type": "Trigger_MissileHitEntity"
+        }
+      ]
+    },
+    "vanishEffect": {
+      "effect": {
+        "asset": "asset/effect/Red Bullet Effect/txxd209_short trailing_01_red_3d.effect"
+      },
+      "once": true
+    },
+    "vanishShow": true,
+    "vanishSkill": "myplugin/shoot"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "57136c1addd74cdbaf77ec9b38b0aa15",
+      "triggers.bts": "8f6c8212030ee2d06a9d432078b5136c"
+    },
+    "VERSION": "0.23"
+  }
+}

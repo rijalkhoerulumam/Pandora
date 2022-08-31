@@ -5,6 +5,145 @@
   "hdr": 0,
   "hideCloud": true,
   "is_bake_light_effect_visible": false,
+  "scene": [
+    {
+      "attributes": [],
+      "class": "RegionPart",
+      "customProperties": [],
+      "properties": {
+        "bakeTextureWeight": "1",
+        "batchType": "Static",
+        "canAcceptShadow": "true",
+        "canGenerateShadow": "true",
+        "cfgName": "myplugin/fce7c94f-8d8b-4aeb-932d-9a9ca0c054fc",
+        "id": "8778158826238492673",
+        "isVisibleInEditor": "true",
+        "name": "win",
+        "needSync": "true",
+        "position": "x:39.7397918701172 y:53.8015060424805 z:37.6470260620117",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:12.8648 y:0.999987 z:11.2918",
+        "selectable": "true",
+        "useAnchor": "false",
+        "useForCollision": "false"
+      }
+    },
+    {
+      "attributes": [],
+      "class": "DropItem",
+      "config": "myplugin/senjata",
+      "customProperties": [],
+      "properties": {
+        "bakeTextureWeight": "1",
+        "batchType": "Static",
+        "canAcceptShadow": "true",
+        "canGenerateShadow": "true",
+        "fixRotation": "false",
+        "id": "8778203610251362305",
+        "isVisibleInEditor": "true",
+        "name": "DropItem",
+        "needSync": "true",
+        "position": "x:24.2327404022217 y:53 z:41.290153503418",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "false",
+        "useForCollision": "false"
+      }
+    },
+    {
+      "attributes": [],
+      "class": "Entity",
+      "config": "myplugin/enemy",
+      "customProperties": [],
+      "properties": {
+        "bakeTextureWeight": "1",
+        "batchType": "Static",
+        "canAcceptShadow": "true",
+        "canGenerateShadow": "true",
+        "collisionGroup": "1",
+        "id": "8782637335733010433",
+        "isVisibleInEditor": "true",
+        "name": "enemy",
+        "needSync": "true",
+        "position": "x:6.93795299530029 y:53 z:38.6763687133789",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "false",
+        "useForCollision": "false"
+      }
+    },
+    {
+      "attributes": [],
+      "class": "DropItem",
+      "config": "myplugin/hadiah",
+      "customProperties": [],
+      "properties": {
+        "bakeTextureWeight": "1",
+        "batchType": "Static",
+        "canAcceptShadow": "true",
+        "canGenerateShadow": "true",
+        "fixRotation": "false",
+        "id": "8782681868820611073",
+        "isVisibleInEditor": "true",
+        "name": "DropItem",
+        "needSync": "true",
+        "position": "x:27.2698345184326 y:53.0000038146973 z:23.7755966186523",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "false",
+        "useForCollision": "false"
+      }
+    },
+    {
+      "attributes": [],
+      "class": "DropItem",
+      "config": "myplugin/hadiah",
+      "customProperties": [],
+      "properties": {
+        "bakeTextureWeight": "1",
+        "batchType": "Static",
+        "canAcceptShadow": "true",
+        "canGenerateShadow": "true",
+        "fixRotation": "false",
+        "id": "8782854199453827073",
+        "isVisibleInEditor": "true",
+        "name": "DropItem",
+        "needSync": "true",
+        "position": "x:8.77276802062988 y:53.0000839233398 z:28.6114711761475",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "false",
+        "useForCollision": "false"
+      }
+    },
+    {
+      "attributes": [],
+      "class": "DropItem",
+      "config": "myplugin/hadiah",
+      "customProperties": [],
+      "properties": {
+        "bakeTextureWeight": "1",
+        "batchType": "Static",
+        "canAcceptShadow": "true",
+        "canGenerateShadow": "true",
+        "fixRotation": "false",
+        "id": "8782854357590835201",
+        "isVisibleInEditor": "true",
+        "name": "DropItem",
+        "needSync": "true",
+        "position": "x:5.80948305130005 y:53.0044860839844 z:9.08500957489014",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "false",
+        "useForCollision": "false"
+      }
+    }
+  ],
   "skyBox": [
     {
       "texture": [

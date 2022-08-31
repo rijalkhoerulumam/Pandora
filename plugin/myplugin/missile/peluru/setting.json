@@ -1,0 +1,87 @@
+{
+  "autoRotateColliderBox": true,
+  "collideBlock": 0,
+  "collideEntity": 6,
+  "collider": {
+    "height": 1,
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radius": 0.5,
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "type": "Cylinder"
+  },
+  "followTarget": false,
+  "followTargetRotation": true,
+  "followTargetRotationOffset": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "gravity": 0.05,
+  "hitBlockCount": 0,
+  "hitCount": 1,
+  "hitEntityCount": 1,
+  "hitEntitySkill": "myplugin/shoot",
+  "hitEntitysRoles": [
+    "hitAllTeam",
+    "hitNpc",
+    "hitAllConfigEntity"
+  ],
+  "hitInterval": 10,
+  "isPitch": true,
+  "lifeTime": 20,
+  "lockRotateBodyPitch": 0,
+  "lockRotateBodyRoll": 0,
+  "lockRotateBodyYaw": 0,
+  "modelMesh": "asset/Mesh/Orange Carrot/huluobo.mesh",
+  "modelSizeScale": {
+    "x": 2,
+    "y": 2,
+    "z": 2
+  },
+  "moveAcc": 0.05,
+  "moveSpeed": 0.05,
+  "rotateFree": true,
+  "rotateSpeed": 0.05,
+  "startEffect": {
+    "effect": "@asset/effect/Red Bullet Effect/txxd209_short trailing_01_red_3d.effect",
+    "once": false,
+    "pos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "yaw": 0
+  },
+  "startWithMoveAcc": true,
+  "vanishEffect": {
+    "effect": "@asset/effect/Red Bullet Effect/txxd209_short trailing_01_red_3d.effect",
+    "once": true,
+    "pos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "yaw": 0
+  },
+  "vanishShow": true,
+  "vanishSkill": "myplugin/shoot",
+  "vanishTime": 10
+}

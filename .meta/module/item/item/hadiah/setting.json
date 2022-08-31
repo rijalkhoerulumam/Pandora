@@ -1,0 +1,33 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/Mesh/Yellow Small Packet Of Fries/g2040_candy_fries.tga"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemEquip",
+        "tray": "1"
+      }
+    },
+    "itemContainer": {
+      "isValid": true,
+      "itemType": {
+        "item": "myplugin/hadiah"
+      }
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Yellow Small Packet Of Fries/g2040_candy_fries.mesh"
+    },
+    "name": {
+      "value": "item_hadiah"
+    },
+    "needSave": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "df44e50762c447ee7c44ab6035723185",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

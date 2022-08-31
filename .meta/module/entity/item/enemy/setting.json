@@ -1,0 +1,62 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Purple Fly Ghost/Flying Ghost.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "skillList": [
+        {
+          "fullName": "myplugin/atk"
+        }
+      ]
+    },
+    "AI_home": {
+      "homeSize": 50,
+      "outOfHome": "random"
+    },
+    "AI_patrol": {
+      "idle": {
+        "prob": {
+          "value": 1
+        }
+      },
+      "patrolMode": "randomPath"
+    },
+    "AI_walkRules": {
+      "ai_navigation": {
+        "enable": true
+      },
+      "faceCliff": {
+        "avoidCliff": false
+      }
+    },
+    "canClick": true,
+    "canRevive": true,
+    "damage": 5,
+    "enableAI": true,
+    "followEntityDistanceWhenHasTarget": 5,
+    "girlactor": {
+      "asset": ""
+    },
+    "hideHp": false,
+    "maxHp": 100,
+    "name": {
+      "value": "entity_enemy"
+    },
+    "reviveTime": {
+      "value": 400
+    },
+    "skill": [
+      "myplugin/atk"
+    ]
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "5bddda41aa9b938eae986decc41e0e5d",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

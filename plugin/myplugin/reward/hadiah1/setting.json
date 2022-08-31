@@ -1,0 +1,10 @@
+[
+  {
+    "countRange": {
+      "max": 1,
+      "min": 0
+    },
+    "name": "myplugin/hadiah",
+    "type": "Item"
+  }
+]

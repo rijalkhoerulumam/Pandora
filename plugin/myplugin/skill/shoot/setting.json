@@ -1,0 +1,118 @@
+{
+  "area": [
+    [
+      0,
+      -228
+    ],
+    [
+      0,
+      -68
+    ],
+    [
+      0,
+      88
+    ],
+    [
+      0,
+      88
+    ]
+  ],
+  "area_number": 7,
+  "backSwingTime": 0,
+  "bodyPitchOffset": [
+    1
+  ],
+  "bodyYawOffset": [
+    1
+  ],
+  "castAction": "pistol_shoot",
+  "castActionTime": 20,
+  "castEffect": {
+    "effect": "asset/effect/Red Bullet Effect/txxd209_short trailing_01_red_3d.effect",
+    "once": true,
+    "pos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "selfOnly": true,
+    "yaw": 0
+  },
+  "castInterval": 40,
+  "cdMaskConfig": {
+    "AntiClockwise": false,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "horizontalAlignment": 1,
+    "verticalAlignment": 1
+  },
+  "cdTime": 60,
+  "chargeCdMaskConfig": {
+    "AntiClockwise": false,
+    "FillPosition": "",
+    "FillType": "Horizontal",
+    "horizontalAlignment": 1,
+    "verticalAlignment": 1
+  },
+  "chargeCdTime": 0,
+  "chargeEnableCdMask": false,
+  "chargeIsShowCdPoint": false,
+  "chargeTimes": 2,
+  "consumeVp": 0,
+  "customizeSkill": true,
+  "draggingEnabled": false,
+  "enable_pre": false,
+  "enable_rear": false,
+  "enableCdMask": true,
+  "enableCdTip": true,
+  "enableChargeTime": false,
+  "enableMoveBrkBackS": false,
+  "enableMoveBrkPreS": true,
+  "frontSight": "",
+  "horizontalAlignment": 2,
+  "icon": "@asset/Texture/Skill/common/icon_开枪_act.png",
+  "icon_pushed": "@asset/Texture/Skill/common/icon_开枪_nor.png",
+  "ignoreCastSkillBackS": false,
+  "ignoreCastSkillPreS": false,
+  "ignoreJumpBackS": false,
+  "ignoreJumpPreS": false,
+  "ignoreMoveBackS": false,
+  "ignoreMovePreS": false,
+  "isClick": true,
+  "isShowCdPoint": false,
+  "isTouch": false,
+  "missileCfg": [
+    "myplugin/peluru"
+  ],
+  "missileCount": 1,
+  "preSwingTime": 0,
+  "sensitivityFactor": 2.366,
+  "startAction": "pistol_shoot",
+  "startActionTime": 20,
+  "startFrom": "foot",
+  "startPitch": [
+    1
+  ],
+  "startPos": [
+    {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
+  ],
+  "startWait": [
+    20
+  ],
+  "startYaw": [
+    1
+  ],
+  "sustainAction": "",
+  "targetType": "Any",
+  "type": "Missile",
+  "verticalAlignment": 2
+}

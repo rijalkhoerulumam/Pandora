@@ -1,0 +1,94 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="boy_01.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="npc217.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="32" MasterName="clothes_pants">
+				<Skin ChangeColor="2.10195e-44 1.8235e-40 3.44643e+30 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/32_trousers_widget.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="1" MasterName="clothes_tops">
+				<Skin ChangeColor="2.10195e-44 1.8417e-40 7.20161e+22 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/01_trunk_boy.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="15" MasterName="custom_face">
+				<StaticMesh>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_head"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/15_face_boy.mesh"/>
+					<Position_X value="0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="10" MasterName="custom_hair">
+				<StaticMesh>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_head"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/10_hair_boy.mesh"/>
+					<Position_X value="0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="custom_shoes_1" MasterName="custom_shoes">
+				<StaticMesh>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_foot_l"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/01_shoes_l_widget.mesh"/>
+					<Position_X value="0"/>
+				</StaticMesh>
+				<StaticMesh>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_foot_r"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/01_shoes_r_widget.mesh"/>
+					<Position_X value="0"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/boy_stand05.anim"/>
+			<Anim Name="asset/Anim/christmas_wave_boy.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.05" BeginTime="0" Name="asset/Anim/boy_stand05.anim" Channel="lower" TimeScale="1" Length="2.033" Times="-1"/>
+				<ActorScale beginScale="0.65" durationTime="2" beginTime="0" endScale="0.65"/>
+			</Skill>
+			<Skill Name="idle_1" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="0"/>
+					<Times value="1"/>
+					<FileName value="asset/Effect/Roles/30gantanhao_m.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="1"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="1.41131"/>
+					<pitch value="0"/>
+					<BeginTime value="0"/>
+					<SocketName value="bip01"/>
+					<Position_X value="-0.0354224"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/christmas_wave_boy.anim" Channel="" TimeScale="1" Length="6.7" Times="-1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

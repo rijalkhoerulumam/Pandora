@@ -1,0 +1,17 @@
+{
+  "data": {
+    "deadRemove": true,
+    "maxHp": 20,
+    "name": {
+      "value": "buff_hp"
+    },
+    "needSave": true,
+    "sync": "self"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "1609cc7e1f9343873199e349f6fce2fd"
+    },
+    "VERSION": "0.23"
+  }
+}

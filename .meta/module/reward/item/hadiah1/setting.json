@@ -1,0 +1,21 @@
+{
+  "data": {
+    "name": {
+      "value": "reward_hadiah1"
+    },
+    "rewardArray": [
+      {
+        "base": {
+          "__OBJ_TYPE": "RewardItem",
+          "name": "myplugin/hadiah"
+        }
+      }
+    ]
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "ca5e1948088cb4ee3f00b658d785cf56"
+    },
+    "VERSION": "0.23"
+  }
+}

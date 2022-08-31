@@ -1,0 +1,18 @@
+{
+  "data": {
+    "damage": 20,
+    "damagePct": 0.18,
+    "dropDamageRatio": 40,
+    "dropDamageStart": 40,
+    "name": {
+      "value": "buff_attack"
+    },
+    "reachDistance": 10
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "941d78976695241178e07abde6e7c945"
+    },
+    "VERSION": "0.23"
+  }
+}

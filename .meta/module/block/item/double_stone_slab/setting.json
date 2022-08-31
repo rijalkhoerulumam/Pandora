@@ -5,9 +5,12 @@
         "value": 0
       }
     },
+    "canBreak": false,
+    "candrop": true,
     "dropSelf": {
       "canDropSelf": false
     },
+    "isOpaqueFullCube": false,
     "name": {
       "value": "block_double_stone_slab"
     },
@@ -39,7 +42,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "8303b224472044167d29db5c91838879",
+      "setting.json": "4e791708e57a259183d196b6a37a8646",
       "triggers.bts": ""
     },
     "VERSION": "0.23"

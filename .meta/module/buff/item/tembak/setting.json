@@ -1,0 +1,16 @@
+{
+  "data": {
+    "damage": 20,
+    "dropDamageRatio": 20,
+    "dropDamageStart": 20,
+    "name": {
+      "value": "buff_tembak"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "27652b8fe8a55abf630d89810dde4311"
+    },
+    "VERSION": "0.23"
+  }
+}

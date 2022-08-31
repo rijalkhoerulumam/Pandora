@@ -16,20 +16,36 @@
       "radius": 0.43,
       "type": "Capsule"
     },
+    "canClick": true,
+    "canRevive": true,
+    "damage": 5,
     "deadAction": {
       "deathHideTime": {
         "value": 60
       },
       "playDeadAction": "die_front"
     },
+    "destroyTime": {
+      "value": 100
+    },
+    "equip": [
+      "1"
+    ],
     "isPlayer": true,
+    "maxHp": 100,
     "name": {
       "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
-    }
+    },
+    "reviveTime": {
+      "value": 200
+    },
+    "skill": [
+      "myplugin/shoot"
+    ]
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "09f2293f4a9e50869efa98a8744222dc",
+      "setting.json": "c186c1aeac49f605bd8f3866bd085d5f",
       "triggers.bts": ""
     },
     "VERSION": "0.23"

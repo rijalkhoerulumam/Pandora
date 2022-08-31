@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "coinName": "senjata",
+    "item": {
+      "name": "myplugin/senjata",
+      "type": "Item"
+    },
+    "showUi": false
+  }
+]

@@ -23,6 +23,80 @@
         }
       }
     },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/fce7c94f-8d8b-4aeb-932d-9a9ca0c054fc",
+        "id": "8778158826238492673",
+        "name": "win",
+        "position": {
+          "x": 39.7397918701172,
+          "y": 53.8015060424805,
+          "z": 37.6470260620117
+        },
+        "scale": {
+          "x": 12.8648,
+          "y": 0.999987,
+          "z": 11.2918
+        },
+        "size": {
+          "x": 12.8648290634155,
+          "y": 0.999987363815308,
+          "z": 11.2918300628662
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/senjata",
+        "id": "8778203610251362305",
+        "position": {
+          "x": 24.2327404022217,
+          "y": 53,
+          "z": 41.290153503418
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/enemy",
+        "id": "8782637335733010433",
+        "name": "enemy",
+        "position": {
+          "x": 6.93795299530029,
+          "y": 53,
+          "z": 38.6763687133789
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/hadiah",
+        "id": "8782681868820611073",
+        "position": {
+          "x": 27.2698345184326,
+          "y": 53.0000038146973,
+          "z": 23.7755966186523
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/hadiah",
+        "id": "8782854199453827073",
+        "position": {
+          "x": 8.77276802062988,
+          "y": 53.0000839233398,
+          "z": 28.6114711761475
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/hadiah",
+        "id": "8782854357590835201",
+        "position": {
+          "x": 5.80948305130005,
+          "y": 53.0044860839844,
+          "z": 9.08500957489014
+        }
+      }
+    ],
     "name": {
       "value": "map_map001"
     },
@@ -32,7 +106,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "1468007667abbba8b0f4acb3b5092a64"
+      "setting.json": "676699f2c8db9f0df760ce6655ed399b"
     },
     "VERSION": "0.23"
   }

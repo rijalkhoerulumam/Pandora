@@ -1,0 +1,96 @@
+{
+  "data": {
+    "castAction": "pistol_shoot",
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Red Bullet Effect/txxd209_short trailing_01_red_3d.effect"
+      },
+      "selfOnly": true
+    },
+    "castSound": {
+      "playRate": 1.99
+    },
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 60
+    },
+    "container": {
+      "autoReloadSkill": "myplugin/shoot",
+      "takeNum": 0
+    },
+    "defineActionTime": true,
+    "enableCdMask": true,
+    "enableCdTip": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_shoot"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "bodyPitchOffset": 1,
+            "bodyYawOffset": 1,
+            "missileCfg": "myplugin/peluru",
+            "startPitch": 1,
+            "startPos": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "startWait": {
+              "value": 20
+            },
+            "startYaw": 1
+          }
+        ]
+      },
+      "type": "Missile"
+    },
+    "skill_pre": {
+      "ignore_release": false,
+      "move_interrupt": true,
+      "time": {
+        "value": 60
+      }
+    },
+    "skill_rear": {
+      "time": {
+        "value": 60
+      }
+    },
+    "skillReleaseWay": {
+      "emitContinuously": {
+        "castInterval": {
+          "value": 40
+        },
+        "isValid": true
+      },
+      "icon": {
+        "asset": "asset/Texture/Skill/common/icon_开枪_act.png"
+      },
+      "icon_pushed": {
+        "asset": "asset/Texture/Skill/common/icon_开枪_nor.png"
+      },
+      "iconPos": {
+        "area_number": 7
+      },
+      "isClick": true,
+      "isClickIcon": true,
+      "sensitivityFactor": 2.366
+    },
+    "startAction": "pistol_shoot",
+    "startActionTime": {
+      "value": 20
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "4e82661963eb385fa0af3fac43d1f011",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

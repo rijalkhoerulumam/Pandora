@@ -1,7 +1,7 @@
 {
-  "breakTime": 20,
+  "breakTime": false,
   "canClick": false,
-  "candrop": false,
+  "candrop": true,
   "canSwim": false,
   "climbSpeed": 0,
   "collisionBoxes": [
@@ -24,6 +24,7 @@
   "dropCount": 1,
   "dropSelf": false,
   "fall": false,
+  "isOpaqueFullCube": false,
   "maxFallSpeed": 1.5,
   "maxSpeed": 500,
   "recycle": false,

@@ -1,0 +1,39 @@
+{
+  "data": {
+    "canAbandon": true,
+    "candrop": true,
+    "canUse": true,
+    "icon": {
+      "asset": "asset/Mesh/Blue-Purple Truncated Energy Cannon/g2047_gun_07_04.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "isCoin": true,
+        "skill": [
+          "myplugin/shoot"
+        ]
+      },
+      "type": "InHand"
+    },
+    "itemContainer": {
+      "itemType": {
+        "item": "myplugin/senjata"
+      }
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Blue-Purple Truncated Energy Cannon/g2047_gun_07_04.mesh"
+    },
+    "name": {
+      "value": "item_senjata"
+    },
+    "stack_count_max": 5
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b0f980293b7f3f8045d0a434b9974121",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}
